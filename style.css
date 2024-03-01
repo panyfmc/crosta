@@ -1,0 +1,19 @@
+body {
+    background-image: url(./arq.crosta/fundo.jpeg);
+    background-color: blueviolet;
+    background-repeat: no-repeat;   /*img nao repetir na page*/
+    background-position: top center; /*img no centro da page*/
+    background-size: cover;  /*cobre a tela inteira*/
+  }
+
+#container {
+    width: 1000px;
+    height: 640px;
+    border: 1px solid black;
+    margin-right: auto;
+    margin-left: auto;
+}  
+
+#profile img {
+    width: 112px;
+}
