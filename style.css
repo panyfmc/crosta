@@ -1,19 +1,32 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
 body {
-    background-image: url(./arq.crosta/fundo.jpeg);
-    background-color: blueviolet;
+    background-image: url(https://github.com/panyfmc/crosta/blob/92b83ff968d0a6ad66cf820ae3754a2f69d35cd0/Picsart_24-03-02_08-02-01-421.jpg);
+    background-color: plum;
     background-repeat: no-repeat;   /*img nao repetir na page*/
     background-position: top center; /*img no centro da page*/
     background-size: cover;  /*cobre a tela inteira*/
   }
 
 #container {
-    width: 1000px;
-    height: 640px;
+    width: 790px;
     border: 1px solid black;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 56px auto 0px;
 }  
 
-#profile img {
-    width: 112px;
+#profile {
+    text-align: center;
 }
+
+ #profile p {
+    font-style: italic;
+    font-weight: 500;
+    line-height: 24px;
+    
+}
+    
