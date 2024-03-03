@@ -1,0 +1,201 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url(./crosta/assets/fundo.jpg);
+    background-color: rgb(165, 255, 175);
+    background-repeat: no-repeat;   /*img nao repetir na page*/
+    background-position: top center; /*img no centro da page*/
+    background-size: cover;  /*cobre a tela inteira*/
+  }
+
+#container {
+    width: 1000px;
+    margin: 20px auto 0px;
+}  
+
+#profile img {
+    width: 720px;
+    margin: auto;
+}
+
+#profile {
+    text-align: center;
+}
+
+ #profile p {
+    font-style: italic;
+    font-weight: 900;
+    line-height: 24px;
+    
+}
+
+#profile ul {
+    text-align: center;
+}
+
+#bloco {
+    width: 1000px;
+    margin: 150px auto 0px;
+    text-align: center;
+}
+
+#fotos img {
+    width: 450px;
+    margin: auto;
+}
+#fotos p {
+    font-style: oblique;
+    font-weight: 600;
+    line-height: 90px;
+}
+
+#bloco2 {
+    width: 1000px;
+    margin: 50px auto 0px;
+    text-align: center;
+}
+
+#fotos2 img {
+    width: 450px;
+    margin: auto;
+}
+#fotos2 p {
+    font-style: oblique;
+    font-weight: 600;
+    line-height: 90px;
+}
+
+#bloco3 {
+    width: 1000px;
+    margin: 50px auto 0px;
+    text-align: center;
+}
+
+#fotos3 img {
+    width: 450px;
+    margin: auto;
+}
+#fotos3 p {
+    font-style: oblique;
+    font-weight: 600;
+    line-height: 90px;
+}
+    
+#bloco4 {
+    width: 1000px;
+    margin: 50px auto 0px;
+    text-align: center;
+}
+
+#fotos4 img {
+    width: 500px;
+    margin: auto;
+}
+#fotos4 p {
+    font-style: oblique;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+#bloco5 {
+    width: 1000px;
+    margin: 50px auto 0px;
+    text-align: center;
+}
+
+#fotos5 p {
+    font-style: oblique;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+ul {
+    margin: auto;
+    list-style-type: disc;
+    
+}
+
+ul p {
+    font-style: oblique;
+    font-weight: 600;
+    line-height: 90px;
+}
+
+ul li {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    padding: 16px 24px;
+    background: rgb(117, 255, 131);
+
+}
+
+#bloco6 {
+    width: 1000px;
+    margin: 50px auto 100px;
+    text-align: center;
+}
+
+#fotos6 img {
+    width: 500px;
+    margin: auto;
+}
+#fotos6 p {
+    font-style: oblique;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+ul {
+    margin: auto;
+    list-style-type: disc;
+    
+}
+
+ul li {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    padding: 30px 30px;
+    background: rgb(117, 255, 131);
+}
+
+
+#bloco7 {
+    width: 1000px;
+    margin: 50px auto 0px;
+    text-align: center;
+}
+
+#fotos7 img {
+    width: 450px;
+    margin: auto;
+}
+#fotos7 p {
+    font-style: oblique;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+#bloco8 {
+    width: 1000px;
+    margin: 50px auto 0px;
+    text-align: center;
+}
+
+#fotos8 img {
+    width: 450px;
+    margin: auto;
+}
+#fotos8 p {
+    font-style: oblique;
+    font-weight: 600;
+    line-height: 90px;
+}
+
+
