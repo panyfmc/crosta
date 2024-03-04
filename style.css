@@ -36,7 +36,7 @@ body {
  #profile p {
     font-style: italic;
     font-weight: 900;
-    line-height: 24px;
+    line-height: 70px;
     
 }
 
@@ -101,7 +101,7 @@ body {
 #fotos3 p {
     font-style: oblique;
     font-weight: 600;
-    line-height: 90px;
+    line-height: 25px;
 }
     
 #bloco4 {
@@ -230,4 +230,5 @@ ul li {
     font-weight: 600;
     line-height: 90px;
 }
+
 
