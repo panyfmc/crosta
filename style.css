@@ -88,7 +88,7 @@ body {
 #bloco4 {
     width: 1000px;
     margin: 50px auto 0px;
-    text-align: center;
+    text-align: center;   
 }
 
 #fotos4 img {
@@ -194,5 +194,3 @@ ul li {
     font-weight: 600;
     line-height: 90px;
 }
-
-
