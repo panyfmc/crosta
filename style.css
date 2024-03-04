@@ -2,20 +2,26 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    display: flex;
+    justify-content: center; /* centraliza os itens horizontalmente */
+    align-items: center;   /* centraliza os itens verticalmente */
+    display: grid;
+    place-items: center; /* centraliza os itens tanto horizontal quanto verticalmente */
+    
 }
 
 
 body {
-    background-image: url(./crosta/assets/fundo.jpg);
-    background-color: rgb(165, 255, 175);
+    background-image: url(./assets/fundo.jpg);
     background-repeat: no-repeat;   /*img nao repetir na page*/
     background-position: top center; /*img no centro da page*/
     background-size: cover;  /*cobre a tela inteira*/
   }
 
 #container {
-    width: 1000px;
+    width: 1100px;
     margin: 20px auto 0px;
+
 }  
 
 #profile img {
@@ -42,12 +48,19 @@ body {
     width: 1000px;
     margin: 150px auto 0px;
     text-align: center;
+    
 }
 
 #fotos img {
-    width: 450px;
-    margin: auto;
+    display: block;
+    width: 500px;
+    margin: 0 auto;
 }
+
+#bloco {
+    text-align: center;
+}
+
 #fotos p {
     font-style: oblique;
     font-weight: 600;
@@ -61,9 +74,11 @@ body {
 }
 
 #fotos2 img {
-    width: 450px;
-    margin: auto;
+    display: block;
+    width: 500px;
+    margin: 0 auto;
 }
+
 #fotos2 p {
     font-style: oblique;
     font-weight: 600;
@@ -74,12 +89,15 @@ body {
     width: 1000px;
     margin: 50px auto 0px;
     text-align: center;
+    background-position: top center;   
 }
 
 #fotos3 img {
-    width: 450px;
-    margin: auto;
+    display: block;
+    width: 500px;
+    margin: 0 auto;
 }
+
 #fotos3 p {
     font-style: oblique;
     font-weight: 600;
@@ -89,13 +107,16 @@ body {
 #bloco4 {
     width: 1000px;
     margin: 50px auto 0px;
-    text-align: center;
+    text-align: center;   
+    background-position: top center;
 }
 
 #fotos4 img {
+    display: block;
     width: 500px;
-    margin: auto;
+    margin: 0 auto;
 }
+
 #fotos4 p {
     font-style: oblique;
     font-weight: 600;
@@ -106,6 +127,13 @@ body {
     width: 1000px;
     margin: 50px auto 0px;
     text-align: center;
+    background-position: top center;
+}
+
+#fotos5 img {
+    display: block;
+    width: 500px;
+    margin: 0 auto;
 }
 
 #fotos5 p {
@@ -131,7 +159,6 @@ ul li {
     height: 50px;
     justify-content: center;
     padding: 16px 24px;
-    background: rgb(117, 255, 131);
 
 }
 
@@ -139,12 +166,15 @@ ul li {
     width: 1000px;
     margin: 50px auto 100px;
     text-align: center;
+    background-position: top center;
 }
 
 #fotos6 img {
+    display: block;
     width: 500px;
-    margin: auto;
+    margin: 0 auto;
 }
+
 #fotos6 p {
     font-style: oblique;
     font-weight: 600;
@@ -155,14 +185,13 @@ ul {
     margin: auto;
     list-style-type: disc;
     
-}
+}  
 
 ul li {
     display: flex;
     height: 50px;
     justify-content: center;
     padding: 30px 30px;
-    background: rgb(117, 255, 131);
 }
 
 
@@ -170,11 +199,13 @@ ul li {
     width: 1000px;
     margin: 50px auto 0px;
     text-align: center;
+    background-position: top center;
 }
 
 #fotos7 img {
-    width: 450px;
-    margin: auto;
+    display: block;
+    width: 500px;
+    margin: 0 auto;
 }
 #fotos7 p {
     font-style: oblique;
@@ -186,16 +217,17 @@ ul li {
     width: 1000px;
     margin: 50px auto 0px;
     text-align: center;
+    background-position: top center;
 }
 
 #fotos8 img {
-    width: 450px;
-    margin: auto;
+    display: block;
+    width: 500px;
+    margin: 0 auto;
 }
 #fotos8 p {
     font-style: oblique;
     font-weight: 600;
     line-height: 90px;
 }
-
 
